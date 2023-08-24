@@ -1,0 +1,76 @@
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    
+}
+
+.navLi {
+    list-style: none;
+    margin: 1.8rem;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7rem;
+}
+
+/* ------ NAV CONTACTO */
+
+.navContacto {
+    width: 100vw;
+    height: 130px;
+    background-color: #1a6eb9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navContacto__Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70vw;
+}
+
+.navContacto__Tel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navContactoNum {
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    margin: 2px;
+}
+
+.navContacto__Ubic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navContacto__Redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgTel {
+    width: 35px;
+    height: 35px;
+    filter: grayscale(0%) brightness(0) invert(1);
+    
+}

@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.sobreNosotros {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sobreNosotros__ContImg {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.sobreNosotros__Img {
+    width: 700px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.sobreNosotros__Texto { 
+    width: 40vw;
+    opacity: 0;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreNosotros__Texto.aparecer {
+    animation: movertexto 1.5s both;
+}
+
+@keyframes movertexto {
+    0% {
+        opacity: 0;
+        transform: translateX(700px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.sobreNosotros__Titulo {
+    margin: 1rem;
+    font-size: 2.6rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sobreNosotros__Texto1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    width: 85%;
+    text-align: left;
+}

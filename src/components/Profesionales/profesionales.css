@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profesionalesContainer {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /*  background-image: url(../assets/fondo1.jpg); */
+    
+    display: flex;
+    
+} 
+
+.datosProfesionales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    min-height: 700px;
+    max-height: 700px;
+    margin: 1rem;
+}
+
+.profesionalImagen {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.profesionalesTitulo {
+    background-color: rgb(209, 119, 15);
+    width: 100vw;
+    height: 140px;
+    font-size: 4.5rem;
+}
+
+.profesionalDato {
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
